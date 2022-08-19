@@ -1,0 +1,15 @@
+{
+    "type":"record",
+    "name":"User",
+    "namespace":"org.apache.rocketmq.example.schema",
+    "fields":[
+        {
+            "name":"name",
+            "type":"string"
+        },
+        {
+            "name":"department",
+            "type":"string"
+        }
+    ]
+}
